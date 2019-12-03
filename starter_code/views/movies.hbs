@@ -1,0 +1,13 @@
+<div class="container-fluid pt-3">
+  <div class="row">
+    {{#each movies}}
+      <div class="col-3 one-movie mb-5">
+        <a href="/movies/{{this._id}}">
+          <h4>{{this.title}}</h4>
+        </a>
+        <img src="{{this.image}}" alt="{{this.title}} poster">
+      </div>
+    {{/each}}
+  </div>
+</div>
+

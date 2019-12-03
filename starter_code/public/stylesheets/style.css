@@ -2,12 +2,10 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   width: 100vw;
   height: 100vh;
-  background-color: rgb(194, 224, 224)
-}
+  background-color: #c2e0e0; }
 
 a {
-  color: #00B7FF;
-}
+  color: #00B7FF; }
 
 .home-page {
   text-align: left;
@@ -16,31 +14,27 @@ a {
   align-items: flex-end;
   padding-right: 200px;
   padding-top: 150px;
-  background-image: url('../images/cinema.jpg');
+  background-image: url("../images/cinema.jpg");
   width: 100%;
   height: 93%;
   color: white;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
+  background-size: 100% 100%; }
 
 .home-page h1 {
   font-weight: bold;
-  font-size: 6em;
-}
+  font-size: 6em; }
 
-.one-movie{
+.one-movie {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
-}
+  align-items: center; }
 
 .one-movie a {
-  color: gray;
-}
+  color: gray; }
 
-.one-movie img{
-  height: 30vh;
-}
+.one-movie img {
+  height: 30vh; }
 
+/*# sourceMappingURL=style.css.map */
